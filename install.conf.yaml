@@ -1,0 +1,13 @@
+- defaults:
+    link:
+
+- clean: ['~']
+
+- link:
+    ~/.zshrc: .zshrc
+    ~/.npmrc: .npmrc
+    ~/.nanorc: .nanorc
+    ~/.gitconfig: .gitconfig
+
+-shell:
+    - [git submodule update --init --recursive, Installing submodules]
