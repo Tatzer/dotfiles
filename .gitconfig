@@ -1,2 +1,8 @@
+[user]
+	email = the.consuming.shadows@gmail.com
+	name = Tatzer Nembrius
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
 [include]
-    path = ~/.gitconfig_local
+   path = ~/.gitconfig_local
