@@ -101,8 +101,6 @@ alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
 alias owo="pwd"
 alias ls="ls -Al"
-alias npm="NPQ_PKG_MGR=pnpm SNYK_TOKEN=5e75c1ee-cbb0-4550-94ee-df1b20bd5d7d npq-hero"
-alias pnpm="NPQ_PKG_MGR=pnpm SNYK_TOKEN=5e75c1ee-cbb0-4550-94ee-df1b20bd5d7d npq-hero"
 alias npx="pnpx"
 alias shellcheckstyle="shellcheck --list-optional"
 alias regexgen="regexgen -u"
@@ -110,4 +108,7 @@ alias regexgen="regexgen -u"
 # Load .zshrc_local if it exists for machine-specific needs
 if [ -f ~/.zshrc_local ]; then
     source ~/.zshrc_local
+fi
+if [ -f ~/.zshrc_secrets ]; then
+   source ~/.zshrc_secrets
 fi
