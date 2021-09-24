@@ -5,9 +5,10 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc: .zshrc
+    ~/.zshrc:     .zshrc
     ~/.gitconfig: .gitconfig
     ~/.gitignore: .gitignore
+    ~/.npmrc:     .npmrc
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
