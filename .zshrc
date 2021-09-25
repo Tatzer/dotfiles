@@ -21,7 +21,7 @@ ZSH_THEME="agnoster"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -100,7 +100,8 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
 alias owo="pwd"
-alias ls="ls -Al"
+alias ls="ls -AF"
+alias lsl="ls -AhlsF"
 alias npx="pnpx"
 alias shellcheckstyle="shellcheck --list-optional"
 alias regexgen="regexgen -u"
